@@ -1,0 +1,34 @@
+{
+	"name": "radionovel/php-hydrator",
+	"description": "Simple object hydrator",
+	"type": "library",
+	"keywords": [],
+	"license": "BSD-3-Clause",
+	"authors": [
+		{
+			"name": "Andrey Radionov",
+			"email": "andrey.radionoff@gmail.com"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/radionovel/php-hydrator/issues?state=open",
+		"source": "https://github.com/radionovel/php-hydrator"
+	},
+	"require": {
+		"php": ">=7.4"
+	},
+	"require-dev": {
+		"php": ">=7.4",
+		"phpunit/phpunit": "^9.5.25"
+	},
+	"autoload": {
+		"psr-4": {
+			"Radionovel\\Hydrator\\": "src/"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"Radionovel\\Hydrator\\Tests\\": "tests/"
+		}
+	}
+}
